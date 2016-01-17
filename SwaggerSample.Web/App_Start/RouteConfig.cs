@@ -1,5 +1,4 @@
-﻿using Abp.Web.Api.Swagger;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -11,7 +10,7 @@ namespace SwaggerSample.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            GlobalConfiguration.Configuration.EnableSwaggerUI();
+           // GlobalConfiguration.Configuration.EnableSwaggerUI();
 
             //ASP.NET Web API Route Config
             routes.MapHttpRoute(

@@ -8,8 +8,6 @@ using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
 using Abp.Web.Mvc;
-using Abp.Web.Api.Swagger;
-using System.Web.Http;
 
 namespace SwaggerSample.Web
 {

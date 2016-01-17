@@ -6,7 +6,7 @@ using Abp.WebApi.Controllers.Dynamic.Builders;
 
 namespace SwaggerSample
 {
-    [DependsOn(typeof(AbpWebApiModule),typeof(AbpWebApiSwaggerModule), typeof(SwaggerSampleApplicationModule))]
+    [DependsOn(typeof(AbpWebApiModule), typeof(SwaggerSampleApplicationModule))]
     public class SwaggerSampleWebApiModule : AbpModule
     {
         public override void Initialize()
@@ -17,7 +17,7 @@ namespace SwaggerSample
                 .ForAll<IApplicationService>(typeof(SwaggerSampleApplicationModule).Assembly, "app")
                 .Build();
 
-            Abp.Web.Api.Swagger.SwaggerBuilder.EnableSwaggerJson();
+           // Abp.Web.Api.Swagger.SwaggerBuilder.EnableSwaggerJson();
         }
     }
 }

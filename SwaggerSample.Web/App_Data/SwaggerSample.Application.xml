@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerSample.Application</name>
+    </assembly>
+    <members>
+        <member name="T:SwaggerSample.ComplexObj">
+            <summary>
+            big class
+            </summary>
+        </member>
+        <member name="P:SwaggerSample.ComplexObj.str">
+            <summary>
+            str code
+            </summary>
+        </member>
+        <member name="P:SwaggerSample.ComplexObj.guidid">
+            <summary>
+            id guid
+            </summary>
+        </member>
+        <member name="P:SwaggerSample.ComplexObj.dict">
+            <summary>
+            dict
+            </summary>
+        </member>
+        <member name="P:SwaggerSample.ComplexObj.list">
+            <summary>
+            List
+            </summary>
+        </member>
+        <member name="T:SwaggerSample.KeyName">
+            <summary>
+            simple calss
+            </summary>
+            <remarks>Mark</remarks>
+        </member>
+        <member name="P:SwaggerSample.KeyName.Key">
+            <summary>
+            Key Prop
+            </summary>
+        </member>
+        <member name="P:SwaggerSample.KeyName.Name">
+            <summary>
+            Name Prop
+            </summary>
+        </member>
+        <member name="T:SwaggerSample.ISampleApi">
+            <summary>
+            this is sampleapi summary!
+            </summary>
+        </member>
+        <member name="M:SwaggerSample.ISampleApi.Method1(SwaggerSample.ComplexObj)">
+            <summary>
+            Method1 summary xml comment
+            </summary>
+            <param name="input">input class</param>
+            <returns>do some works</returns>
+            <remarks>this xml comment remarks</remarks>
+        </member>
+        <member name="M:SwaggerSample.ISampleApi.Method2(System.Guid)">
+            <summary>
+            Method2 summary
+            </summary>
+            <param name="id">主键</param>
+            <returns>some returns</returns>
+            <remarks>some remarks</remarks>
+        </member>
+        <member name="T:SwaggerSample.ISampleApi2">
+            <summary>
+             ISampleApi2 xml comment
+            </summary>
+        </member>
+        <member name="M:SwaggerSample.ISampleApi2.Get(System.String)">
+            <summary>
+            Get summy
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SwaggerSample.SwaggerSampleAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+    </members>
+</doc>
